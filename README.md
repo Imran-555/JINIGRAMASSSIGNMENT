@@ -9,4 +9,8 @@
 >> FOR WORD COUNT PAGE http://127.0.0.1:8000/countword/   
 >>PAGE LOOK LIKE THIS
 ![image](https://github.com/Imran-555/JINIGRAMASSSIGNMENT/assets/74055781/c76e80a1-0952-4876-858e-04f0e5d09619)
+
+>> RESULT
+>> ![image](https://github.com/Imran-555/JINIGRAMASSSIGNMENT/assets/74055781/d9fe8285-326d-4199-83a9-ce1605277889)
+
  
