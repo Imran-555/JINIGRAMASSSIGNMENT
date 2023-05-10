@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Word Count</title>
+
+  <style>
+.header{
+  border: 2px  solid blue;
+  text-align: center;
+  background-color: aqua;
+
+}
+
+.formcontainer{
+  border: 1px solid black;
+  text-align: center;
+  margin-top: 10px;
+  width: 100vw;
+  height: 10vh;
+  background-color: antiquewhite;
+}
+
+.formdata{
+  margin-top: 24px;
+}
+
+.btn{
+  background-color:green;
+  border: 2px solid black;
+}
+
+  </style>
+
+</head>
+<body>
+  <div class="header">
+    <h1>Unique Word Counter</h1>
+  </div>
+
+  <div class="formcontainer">
+  <form method="POST" action="{% url 'wordcount' %}" class="formdata">
+    {% csrf_token %}
+    <label for="url">Enter Website Link</label>
+    <input type="text" name="url" value="{{ url }}">
+    <button type="submit" class="btn">Count Unique Word</button>
+  </form>
+</div>
+</body>
+</html>
